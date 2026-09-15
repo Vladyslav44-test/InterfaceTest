@@ -10,6 +10,8 @@ namespace InterfaceTest
     {
         static void Main(string[] args)
         {
+            TallGuy tallGuy = new TallGuy() { Name = "Jimmy", Height = 76 };
+            tallGuy.TalkAboutYourself();
         }
     }
 }
